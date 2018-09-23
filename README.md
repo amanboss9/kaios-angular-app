@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Angular 1.6 KaiOS Application Boilerplate
 This is KaiOS application boilerplate in angularJS 1.6, naviBoardJS and Gulp. Folder structure based on best practices from Angular team. We have used naviBoardJS for smooth spatial-navigation to avoid too much of redundant code for handling keypad based navigation.
 
@@ -61,3 +62,7 @@ manifest.webapp
 ### Steps for DEVELOPMENT AND PRODUCTION build: 
 - `npm run build` ---> developement build , similarly `npm run build:prod` respectively will give a dist folder(Desired build) in the main project.
 - Put the respective constants in the data/Constants.json according to the desired build.This will help to frame the Constants.js in js/app.
+=======
+# kaios-angular-app
+Sample application for kaios loaded feature phones with angular1.6,spatial-navigation and gulp.
+>>>>>>> ba37454e06f5247bb6d0b0b725e46dde4b6a1c45
