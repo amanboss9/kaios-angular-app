@@ -1,0 +1,16 @@
+header{
+	position: fixed;
+	z-index: 1111;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	color: #fff;
+	background: #24397a;
+	box-sizing: border-box;  
+	padding: 0px;
+	margin: 0px;	
+	font-size: 20px;
+}

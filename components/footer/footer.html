@@ -1,0 +1,8 @@
+<!--link rel="stylesheet" type="text/css" href="pages/footer/footer.css"-->
+
+<div id="footer">
+  <div id="leftKey" ng-class="{active: $ctrl.checkwithComponentForLeft == false, inactive: $ctrl.checkwithComponentForLeft == true,defaultActive:$ctrl.checkwithComponentForLeft==null}">{{$ctrl.leftkey}}</div>
+  <i ng-show="$ctrl.showCenter" id="centerButton" class="footercentre" ng-class="{active: $ctrl.checkwithComponentForCenter == false, inactive: $ctrl.checkwithComponentForCenter == true,defaultActive:$ctrl.checkwithComponentForCenter==null}" aria-hidden="true"></i>
+  <div ng-show="!$ctrl.showCenter" ng-class="{active: $ctrl.checkwithComponentForCenter == false, inactive: $ctrl.checkwithComponentForCenter == true,defaultActive:$ctrl.checkwithComponentForCenter==null}" id="centerTextFooter">{{$ctrl.center}}</div>
+  <div id="rightKey"  ng-class="{active: $ctrl.checkwithComponentForRight == false, inactive: $ctrl.checkwithComponentForRight == true,defaultActive:$ctrl.checkwithComponentForRight==null}">{{$ctrl.rightkey}}</div>
+</div>

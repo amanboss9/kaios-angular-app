@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="kaios-sample-app">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#24397a">
+    <title>kaios app</title>
+    
+    <!-- <link rel="stylesheet" type="text/css" href="app.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="stylesheet" href="css/toastr.css">
+   
+</head>
+
+<body id="body">
+     <div id="upperpadding"></div>
+    <div>        
+        <header id="header"></header>
+			<div ng-view autoscroll="true"></div>
+        <footer></footer>
+    </div>
+	
+	<div id="loader">
+        <span class="spinner-loader"><img src="assets/spinner.gif" /></span>
+        <span class="spinner-title">Loading..</span>
+    </div>
+    
+
+    <!--bundle.js-->
+    <script type="text/javascript" src="bundle.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+/*--- Page:footer ---*/
+
+#footer {
+    position: fixed;
+    z-index: 1111;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #000;
+    background: #e6e6e6;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    /* Safari */
+    -webkit-justify-content: space-between;
+    /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+#footer div {
+    box-sizing: border-box;
+}
+
+#footer .inactive {
+    color: #ccc;
+    background: #e6e6e6;
+}
+
+#footer .active {
+    color: #000;
+    background: #e6e6e6;
+}
+
+#footer .defaultActive {
+    color: #000;
+    background: #e6e6e6;
+}
+
+#leftKey {
+    width: 40%;
+}
+#footer .footercentre {
+    margin:  8px 0 0 0;
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    background: url("../assets/img/tick-circle-01.png") center center no-repeat;
+    text-indent: -9999px;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+#leftKey {
+    text-align: left;
+    padding: 0 0 0 10px;
+}
+
+#rightKey {
+    text-align: right;
+    padding: 0 10px 0 0;
+}

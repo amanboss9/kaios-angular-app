@@ -1,0 +1,41 @@
+{
+  "name": "KaiosApp",
+  "display": "KaiOS",
+  "version": "1.0.0",
+  "description": "Sample application for kaios loaded feature phones with angular1.6,spatial-navigation and gulp.",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/assets/img/Logo_56.png",
+    "84": "/assets/img/Logo_84.png"
+  },
+  "theme_color": "#000000",
+  "background_color": "#FFFFFF",
+  "developer": {
+    "name": "Aman Sharma",
+    "url": "https://github.com/amanboss9/kaios-angular-app.git"
+  },
+  "origin": "app://kaios.sample-app.com",
+  "default_locale": "en",
+  "locales": {
+    "en-US": {
+      "name": "KaiOS"
+    }
+  },
+  "chrome": {
+    "statusbar": "overlap"
+  },
+  "permissions": {
+    "speech-recognition": {
+      "description": "Speech recognition"
+    },
+    "wifi-manage": {
+      "description": "Enumerate available WiFi networks, get signal strength, connect to a network."
+    },
+    "systemXHR": {
+      "description": "This permission is require to call web api"
+    },
+    "browser": {},
+    "serviceworker": {}
+  },
+  "type": "privileged"
+}
